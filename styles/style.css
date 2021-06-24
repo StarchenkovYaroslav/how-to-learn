@@ -1,4 +1,23 @@
+h1, h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+a {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.bg_grey {
+  background-color: #f2f2f2;
+}
+
+.bg_blue {
+  background-color: #2f80ed;
+}
+
 .page {
+  color: #000;
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -7,6 +26,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 .header {
@@ -14,6 +34,62 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 32px;
+  width: 183px;
+}
+
+.logo__place_header {
+  background-image: url(../images/logo_place_header.svg);
+  left: 64px;
+  position: absolute;
+  top: 30px;
+  z-index: 3;
+}
+
+.header__title {
+  align-self: center;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+  margin-left: 64px;
+  width: 730px;
+  z-index: 3;
+}
+
+.header__subtitle {
+  bottom: 30px;
+  font-size: 18px;
+  left: 64px;
+  line-height: 25px;
+  position: absolute;
+  width: 388px;
+  z-index: 3;
+}
+
+.main-illustration {
+  bottom: 0;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  width: 765px;
+  z-index: 2;
+}
+
+.header__square-pic {
+  height: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  width: 568px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
