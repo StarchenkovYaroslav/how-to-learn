@@ -1,4 +1,4 @@
-h1, h2, p {
+h1, h2, h3, h4, p {
   font-weight: normal;
   margin: 0;
 }
@@ -93,7 +93,7 @@ a {
 }
 
 .description {
-  border: 1px solid red;
+  border: 1px solid #c00;
   display: flex;
   justify-content: center;
 }
@@ -129,6 +129,52 @@ a {
 
 .two-columns__span-accent {
   font-weight: bold;
+}
+
+.digits {
+  border: 1px solid #0c0;
+}
+
+.section-title {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 60%;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table__heading {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.table__text {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 20px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
