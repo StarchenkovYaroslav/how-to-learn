@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1, h2, h3, h4, p {
   font-weight: normal;
   margin: 0;
@@ -35,6 +39,7 @@ a {
   max-height: 756px;
   /* выше установили ограничения для секции */
   display: flex;
+  overflow: hidden;
   position: relative;
 }
 
@@ -175,6 +180,43 @@ a {
   font-size: 18px;
   line-height: 1.2;
   margin-top: 20px;
+}
+
+.feynman {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 892px;
+  /* выше установили ограничения для секции */
+  background-image: url(../images/feynman.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.feynman__title {
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 0 auto 70px;
+  text-align: center;
+  width: 648px;
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  line-height: 51px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feynman__link {
+  font-size: 36px;
+  line-height: 51px;
+  position: absolute;
+  right: 40px;
+  top: 50%;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
