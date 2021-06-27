@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-.full_screen_section {
-  height: 100vh;
-}
-
 .link {
   text-decoration: none;
 }
@@ -230,8 +226,7 @@
 .feynman {
   background: url(../images/feynman.png) left bottom / 867px 637px no-repeat, #f2f2f2;
   box-sizing: border-box;
-  max-height: 900px;
-  min-height: 600px;
+  height: 890px;
   padding-top: 100px;
   position: relative;
   text-align: center;
@@ -280,16 +275,18 @@
 
 .footer {
   background-color: #1f1f1f;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
   color: #fff;
   font-size: 18px;
-  padding: 80px 0 40px;
+  min-height: 350px;
+  padding: 60px 0 40px;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  min-height: 280px;
   width: 90%;
 }
 
