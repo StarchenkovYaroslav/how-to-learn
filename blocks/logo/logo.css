@@ -3,5 +3,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 32px;
+  opacity: 1;
+  transition: opacity .2s;
   width: 183px;
+}
+
+.logo:hover {
+  opacity: .7;
 }
