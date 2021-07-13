@@ -1,5 +1,4 @@
 .cards {
-  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   list-style: none;

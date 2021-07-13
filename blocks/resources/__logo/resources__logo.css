@@ -1,10 +1,10 @@
 .resources__logo {
-  display:block;
   height: 38px;
   object-fit: contain;
   object-position: center center;
   opacity: 1;
   transition: opacity .2s;
+  vertical-align: bottom;
   width: 270px;
 }
 
