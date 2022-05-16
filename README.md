@@ -8,3 +8,7 @@
 ## Ссылка на сайт
 
 https://starchenkovyaroslav.github.io/how-to-learn/
+
+## Статус проекта
+
+Завершен
